@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+argon2-cffi>=23.1
+cryptography>=43.0
+pyjwt>=2.9
+python-multipart>=0.0.9
+pydantic-settings>=2.4
+email-validator>=2.1
+pqcrypto>=1.0.0       # ML-KEM-768 (FIPS 203) + ML-DSA-65 (FIPS 204), PQClean-based
+pytest>=8.0
+httpx>=0.27
